@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+[class^="box"] {
+  background-color:blueviolet;
+  font-size: 100px;
+  text-align: center;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+  color: aliceblue;
+  align-items: stretch;
+  height: 24.5vh;
+}
+
+
+.box1 {
+   width: 99%;
+
+}
+
+.box2 {
+    width: 49.6%;
+}
+.box3 {
+    width: 49.6%;
+}
+.box4 {
+    width: 24.4%;
+}
+.box5 {
+    width: 24.6%;
+}
+.box6 {
+    width: 24.6%;
+}
+.box7 {
+    width: 24.6%;
+}
+.box8 {
+    width: 32.9%;
+}
+.box9 {
+    width: 32.9%
+}
+.box10 {
+    width: 32.9%;
+}
+
+
+
+.flex-container {
+  display: flex;   
+  flex-direction: row;
+  flex-wrap: wrap;  
+  justify-content:space-around;
+  height: 100vh
